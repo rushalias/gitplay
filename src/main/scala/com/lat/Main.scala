@@ -7,9 +7,9 @@ object Main {
 
   val LOG = LoggerFactory.getLogger(getClass.getName)
 
-  def expensive(sleepTime: Long): Int = {
+  def expensive(sleepTime: Long): String = {
     Thread.sleep(sleepTime)
-    492
+    s"we just slept for ${sleepTime}"
   }
 
   val memo = Memo.immutableHashMapMemo {

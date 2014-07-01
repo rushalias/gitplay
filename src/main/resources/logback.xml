@@ -5,7 +5,8 @@
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
         <encoder>
-            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+            <!-- <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern> -->
+            <pattern>%d [%30.30t] %-30.30c{1} %-5p %m%n</pattern>
         </encoder>
     </appender>
 
