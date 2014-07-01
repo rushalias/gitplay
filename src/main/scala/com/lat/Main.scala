@@ -30,5 +30,8 @@ object Main {
     LOG.info("Start")
     LOG.info(s"First = ${memo(2000)}")
     LOG.info(s"Second= ${memo(2000)}")
+    LOG.info(s"Second= ${memo(5000)}")
+    LOG.info(s"Second= ${memo(5000)}")
+    LOG.info(s"Second= ${memo(5000)}")
   }
 }
