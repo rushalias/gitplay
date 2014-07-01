@@ -9,7 +9,7 @@ object Main {
 
   def expensive(sleepTime: Long): Int = {
     Thread.sleep(sleepTime)
-    42
+    492
   }
 
   val memo = Memo.immutableHashMapMemo {
