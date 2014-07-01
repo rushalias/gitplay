@@ -3,15 +3,6 @@ package com.lat
 import scalaz._
 import org.slf4j._
 
-/* Memoization, douchebag way of saying caching */
-/* Description	Resource	Path	Location	Type
-scalaz-core_2.10-7.0.6.jar is cross-compiled with an incompatible version of Scala (2.10). 
-In case of errorneous report, 
-this check can be disabled in the compiler preference page.	
-
-ScalaZ		Unknown	Scala Classpath Problem
- *  
- */
 object Main {
 
   val LOG = LoggerFactory.getLogger(getClass.getName)
