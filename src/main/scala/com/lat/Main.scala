@@ -24,5 +24,6 @@ object Main {
     LOG.info(s"Second= ${memo(5000)}")
     LOG.info(s"Second= ${memo(5000)}")
     LOG.info(s"Second= ${memo(5000)}")
+    LOG.info("End")
   }
 }
