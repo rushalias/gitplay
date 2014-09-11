@@ -19,18 +19,14 @@ object Main {
 
   def main (args: Array[String]) {
     LOG.info("Start")
-    LOG.info(s"First = ${memo(2000)}")
-    LOG.info(s"Second= ${memo(2000)}")
-    LOG.info(s"Second= ${memo(2000)}")
-    LOG.info(s"Second= ${memo(5000)}")
-    LOG.info(s"Second= ${memo(5000)}")
-    LOG.info(s"Second= ${memo(5000)}")
-    LOG.info(s"First = ${memo(2000)}")
-    LOG.info(s"Second= ${memo(2000)}")
-    LOG.info(s"Second= ${memo(2000)}")
-    LOG.info(s"Second= ${memo(5000)}")
-    LOG.info(s"Second= ${memo(5000)}")
-    LOG.info(s"Second= ${memo(5000)}")
+
+    LOG.info(s"First  2K = ${memo(2000)}")
+    LOG.info(s"Second 2K= ${memo(2000)}")
+
+    LOG.info("=========================")
+
+    LOG.info(s"First  5K = ${memo(5000)}")
+    LOG.info(s"Second 5K = ${memo(5000)}")
     LOG.info("End")
   }
 }
